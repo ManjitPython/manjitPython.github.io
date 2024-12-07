@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Cmicro Technologies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <img src="images/cmicro.jpg" alt="Cmicro Technologies Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="career.html">Career</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('images/hero_background.png');">
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team for more information about our services.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <section>
+            <h2>Contact Information</h2>
+            <p>If you have any questions or would like to learn more about our services, please reach out to us using the contact information below.</p>
+            <ul>
+                <li><strong>Email:</strong> info@cmicro.com</li>
+                <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                <li><strong>Address:</strong> 123 Cloud St, Suite 100, Cloud City, CA 12345</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact Form</h2>
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Cmicro Technologies</p>
+    </footer>
+</body>
+</html>
